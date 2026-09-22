@@ -10,7 +10,7 @@ The repository root is the plugin (`manifest.json` at the top), so Omarchy can
 install it straight from git:
 
 ```bash
-omarchy plugin add <repo-url> --enable
+omarchy plugin add https://github.com/alexisbcz/omarchy-camera.git --enable
 ```
 
 ## Develop
