@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "alex.iris",
+  "name": "Iris",
+  "version": "0.1.0",
+  "author": "Alexis Bouchez",
+  "license": "MIT",
+  "description": "Floating circular webcam mirror, after ahmetb/Iris",
+  "kinds": ["panel", "bar-widget"],
+  "entryPoints": {
+    "panel": "Panel.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "keepLoaded": true,
+  "barWidget": {
+    "displayName": "Iris",
+    "description": "Toggle the floating webcam mirror",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
