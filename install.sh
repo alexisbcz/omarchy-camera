@@ -9,7 +9,7 @@ dest="$HOME/.config/omarchy/plugins/alex.iris"
 
 omarchy plugin validate "$src"
 mkdir -p "$dest"
-rsync -a --delete --exclude .git --exclude install.sh "$src/" "$dest/"
+rsync -a --delete --exclude .git --exclude install.sh --exclude docs "$src/" "$dest/"
 echo "Installed to $dest"
 
 case ${1:-} in

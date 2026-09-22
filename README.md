@@ -4,6 +4,8 @@ A floating, always-on-top circular webcam mirror for the Omarchy shell,
 modelled on [ahmetb/Iris](https://github.com/ahmetb/Iris) for macOS.
 Pure QML (Qt Multimedia) running inside `omarchy-shell` as plugin `alex.iris`.
 
+![Iris bubble floating over a terminal, with the camera icon in the bar](docs/screenshot.png)
+
 ## Install
 
 The repository root is the plugin (`manifest.json` at the top), so Omarchy can
